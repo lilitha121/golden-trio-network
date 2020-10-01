@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(253, 250, 252);
+  font-size: 16px;
+	/* border: 2em solid; */
+	
+	
+}
+
+
+.container {
+	width: 90%;
+	margin:	auto;
+	border-radius: 0.25em
+	
+}
+
+.parts {
+	display: flex;
+	margin-right: 2em;
+}
+
+.info{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.button {
+
+  background-color: lightseagreen;
+    margin: 5px;
+	border: 1px solid;
+	border-radius: 0.25em;
+	padding: 10px;
+	display: block;
+	cursor: pointer;
+	color: white;
+  margin-top: 10px;
+}
+  .button {
+
+    background-color: lightseagreen;
+      margin: 5px;
+    border: 1px solid;
+    border-radius: 0.25em;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+  }
+  .btn-success {
+
+    background-color: rgb(32, 178, 32);
+      margin: 5px;
+    border: 1px solid;
+    border-radius: 0.25em;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+.button:hover {
+	background-color: white;
+	color: lightseagreen;
+}
