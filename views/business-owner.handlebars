@@ -3,38 +3,42 @@
 <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/business-owner.css">
+</head>
 
 <body>
-    <h2></h2>
-    <p><b> Fill in the form bellow and submit to be added as a service provider</b></p>
-    <form class=Business owner"form-inline" action="/action_page.php">
-
+    <h2>Business owner</h2>
+   <p> fill in the form bellow and submit to be added as a service provider</p>
+    <form class="form-inline" action="/action_page.js">
         <label for="name&surname">Name & Surname:</label>
-        <input type="name" id="name" placeholder="Enter name & Surname" name="name"><br></br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Enter email" name="email"><br></br>
+        <input type="name" id="name" placeholder="Enter name & Surname" name="name">
+        
+        <label for="email">Email address:</label>
+        <input type="email" id="email" placeholder="Enter email" name="email">
+        
         <label for="businessName"> Business name:</label>
-        <input type="BusinessName" id="" placeholder="Enter business name" name="business name"><br></br>
+        <input type="BusinessName" id="" placeholder="Enter business name" name="business name">
         <label for="businessDescription"> Business description:</label>
-        <input type="BusinessName" id="" placeholder="Describe your business" name="description">       <br></br>
+        <input type="BusinessName" id="" placeholder="Describe your business" name="description">
+         <label for="businessType"> Business Type:</label>
+        <input type="BusinessType" id="" placeholder="indicate what service you provide" name="BusinesType">
         <label for="pwd">Password:</label>
-        <input type="password" id="pwd" placeholder="Enter password" name="pswd"> <br></br>
- 
+  <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+  <label for="filename">upload image:</label>
+  <input type="file" id="myFile" name="filename">
         <label>
             <input type="checkbox" name="remember"> Remember me
         </label>
-
-       
         <button onclick="myFunction()" type="submit">Submit</button>
     </form>
     <script>
         function myFunction() {
-          alert("Form successfully submitted");
+          alert("form succefully submitted!");
         }
-   </script>
-
+        </script>
 </body>
 </body>
-</head>
 
 </html>
